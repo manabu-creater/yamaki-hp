@@ -256,7 +256,7 @@ font {
   .nav li {
     margin: 10px 20px 10px 20px;
     font-weight: bold;
-    font-size: 60%;
+    font-size: 80%;
   }
   
 
@@ -275,14 +275,15 @@ font {
   
   .contents p {
     flex-wrap: wrap;
-    width: 300px;
+    width: 230px;
     margin: 10px auto;
     font-size: 60%;
     color: white;
   }
   
   .salon {
-    width: 350px;  
+    margin-top: 100px;
+    width: 280px;  
   }
 
   .concepts {

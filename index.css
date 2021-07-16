@@ -115,11 +115,11 @@ header {
   margin-top: 30px;
 }
 .slide img {
-	position:absolute;
-	opacity:0;
-	transition:all 1s ease-in-out;
-	height:100%;
-	object-fit:contain;
+  position:absolute;
+  opacity:0;
+  transition:all 1s ease-in-out;
+  height:100%;
+  object-fit:contain;
 }
 
 #slide_speed {
@@ -282,8 +282,8 @@ font {
   }
   
   .salon {
-    margin-top: 100px;
-    width: 280px;  
+    width: 280px;
+    margin: 100px auto 0;
   }
 
   .concepts {

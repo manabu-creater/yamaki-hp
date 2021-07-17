@@ -186,7 +186,7 @@ header {
   .staff-title {
     width: 130px;
     margin-top: initial;
-    margin-bottom: 30px;
+    height: 50px;
   }
 
   .man {

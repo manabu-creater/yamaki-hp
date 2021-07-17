@@ -115,11 +115,11 @@ header {
   margin-top: 30px;
 }
 .slide img {
-  position:absolute;
-  opacity:0;
-  transition:all 1s ease-in-out;
-  height:100%;
-  object-fit:contain;
+	position:absolute;
+	opacity:0;
+	transition:all 1s ease-in-out;
+	height:100%;
+	object-fit:contain;
 }
 
 #slide_speed {
@@ -132,18 +132,16 @@ header {
   position: relative;
 }
 
-.contents h1 {
-  text-align: center;
-  margin-top: 30px;
-  color: white;
-}
-
 .contents p {
   flex-wrap: wrap;
   width: 700px;
   margin: 20px auto;
   font-size: 130%;
   color: white;
+}
+
+.concepts {
+  text-align: center;
 }
 
 .salon {
@@ -155,7 +153,7 @@ header {
 
 .concepts {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 12%;
   color: white;
   font-weight: bold;
@@ -165,14 +163,9 @@ header {
 /* shop */
 .shop {
   margin-bottom: 100px;
+  text-align: center;
 }
 
-.shop h1 {
-  text-align: center;
-  font-size: 300%;
-  margin-bottom: 30px;
-  color: white;
-}
 
 .appearance {
   width: 400px;
@@ -194,8 +187,10 @@ iframe {
 .shop h3 {
   font-size: 170%;
   margin-top: 20px;
-  margin-left: 30px;
+  margin-bottom: 20px;
   color: white;
+  text-align: left;
+  margin-left: 80px;
 }
 
 .shop-info {
@@ -205,7 +200,7 @@ iframe {
 
 .info-right p {
   font-size: 130%;
-  margin-top: 50px;
+  margin-top: 80px;
   color: white;
 }
 
@@ -291,24 +286,27 @@ font {
     left: 18%;
   }
 
+  .title3 {
+    width: 180px;
+  }
+
   .concepts h1 {
     font-size: 120%;
+  }
+
+  .title2 {
+    width: 180px;
+    margin-top: 70px;
   }
 
   .shop-info {
     display: initial;
   }
 
-  .shop h1 {
-    margin-top: 100px;
-    margin-bottom: initial;
-    font-size: 140%;
-  }
-
   .appearance, iframe {
     width: 280px;
     height: 200px;
-    margin: 20px auto;
+    margin: 0 auto 20px;
   }
 
   .map h3 {
@@ -330,4 +328,3 @@ font {
   
 
 }
-

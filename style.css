@@ -231,3 +231,76 @@ header {
     margin: 0 20px;
   }
 }
+
+/* i pad  */
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  .header-right a, .header-right p {
+    font-size: 80%;
+  }
+
+  .fab {
+    font-size: 80%;
+  }
+
+  .logo {
+    width: 130px;
+    height: 55px;
+  }
+
+  .nav li {
+    margin: 10px 30px;
+    font-weight: bold;
+    font-size: 130%;
+  }
+
+  .styles {
+    width: 650px;
+    margin: 20px auto;
+  }
+
+  .style-title {
+    margin: 20px auto;
+  }
+  
+  .explain-title {
+    font-size: 100%;
+  }
+
+  .explain {
+    width: 600px;
+    margin: 20px auto;
+  }
+  
+  .far {
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+
+  .explain-title {
+    margin-left: initial;
+  }
+
+  .explain p, .far {
+    font-size: 80%;
+  }
+  
+  .style-title {
+    height: 55px;
+    width: 130px;
+  }
+
+  .ba-title {
+    width: 200px;
+    height: 75px;
+  }
+
+  .ba-title, .style-title {
+    margin: 20px auto;
+  }
+  
+  .video {
+    width: 170px;
+    height: 230px;
+    margin: 0 20px;
+  }
+}

@@ -52,8 +52,8 @@ header {
 } */
 
 .logo {
-  width: 180px;
-  height: 101px;
+  width: 220px;
+  height: 120px;
   margin: 20px auto 10px;
   display: block;
 }
@@ -240,7 +240,7 @@ font {
   }
 
   .logo {
-    width: 80px;
+    width: 90px;
     height: 55px;
   }
 

@@ -160,6 +160,10 @@ header {
   width: 400px;
 }
 
+.media-title3 {
+  width: 450px;
+}
+
 @media screen and (max-width: 599px) {
   .header-right a, .header-right p {
     font-size: 60%;
@@ -246,6 +250,11 @@ header {
   
   .media-title2 {
     width: 120px;
+    height: 35px;
+  }
+  
+  .media-title2 {
+    width: 150px;
     height: 35px;
   }
 }

@@ -164,6 +164,10 @@ header {
   width: 450px;
 }
 
+.media-image p {
+    font-size: 160%;
+  }
+
 @media screen and (max-width: 599px) {
   .header-right a, .header-right p {
     font-size: 60%;
@@ -257,6 +261,10 @@ header {
     width: 150px;
     height: 35px;
   }
+  
+  .media-image p {
+    font-size: 80%;
+  }
 }
 
 /* i pad  */
@@ -344,5 +352,9 @@ header {
   .media-title3 {
     width: 250px;
     height: 55px;
+  }
+  
+  .media-image p {
+    font-size: 100%;
   }
 }

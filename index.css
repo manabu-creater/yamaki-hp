@@ -240,7 +240,7 @@ font {
   }
 
   .logo {
-    width: 90px;
+    width: 100px;
     height: 55px;
   }
 
@@ -251,7 +251,7 @@ font {
   .nav li {
     margin: 10px 20px 10px 20px;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 100%;
   }
   
 

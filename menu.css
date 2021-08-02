@@ -2,8 +2,9 @@
 body {
   font-family: serif;
   font-size: 14px;
-  color: black;
+  color: white;
   margin: 0 auto;
+  background-color: black;
   /* background-color: white; */
 }
 
@@ -45,11 +46,6 @@ header {
   flex-wrap: nowrap;
 }
 
-.header-right h4 {
-  font-size: 180%;
-  text-align: right;
-}
-
 .logo {
   width: 220px;
   height: 120px;
@@ -71,11 +67,23 @@ header {
   margin: 10px 60px 10px 60px;
   font-weight: bold;
   font-size: 140%;
+  
 }
 
 .nav a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  transition: .3s;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+ 
+}
+
+.nav a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5);
+  color: palevioletred;
 }
 
 .sns {
@@ -93,6 +101,22 @@ header {
   margin-right: 50px;
 }
 
+.menus {
+  text-align: center;
+}
+
+.menu {
+  width: 800px;
+  margin: 50px auto;
+}
+
+.menus p {
+  text-align: center;
+  font-size: 140%;
+  margin-bottom: 100px;
+}
+
+
 @media screen and (max-width: 599px) {
   .header-right a, .header-right p {
     font-size: 60%;
@@ -107,7 +131,7 @@ header {
   }
 
   .logo {
-    width: 90px;
+    width: 100px;
     height: 55px;
   }
 
@@ -118,11 +142,45 @@ header {
   .nav li {
     margin: 10px 20px 10px 20px;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 100%;
+  }
+
+  .menu {
+    width: 320px;
+    margin: 20px auto;
+  }
+
+  .menus p {
+    font-size: 70%;
   }
 }
 
 /* i pad  */
 @media screen and (min-width:768px) and ( max-width:1024px) {
+  .header-right a, .header-right p {
+    font-size: 80%;
+  }
 
+  .fab {
+    font-size: 80%;
+  }
+
+  .logo {
+    width: 130px;
+    height: 55px;
+  }
+
+  .nav li {
+    font-size: 130%;
+    margin: 10px 30px;
+  }
+
+  .menu {
+    width: 600px;
+    margin: 40px auto;
+  }
+
+  .menus p {
+    font-size: 110%;
+  }
 }

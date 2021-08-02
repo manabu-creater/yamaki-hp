@@ -164,7 +164,7 @@ header {
   }
 
   .logo {
-    width: 90px;
+    width: 100px;
     height: 55px;
   }
 
@@ -175,7 +175,7 @@ header {
   .nav li {
     margin: 10px 20px 10px 20px;
     font-weight: bold;
-    font-size: 80%;
+    font-size: 100%;
   }
   
 
@@ -267,10 +267,6 @@ header {
     height: 400px;
     margin: 30px;
   }
-
-  /* .top-image {
-    order: 1;
-  } */
 
   .top-wrapper {
     width: 650px;

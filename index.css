@@ -1,6 +1,6 @@
 /* リセットCSS */
 body {
-  font-family: serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 14px;
   color: white;
   margin: 0 auto;
@@ -21,6 +21,7 @@ ul,li {
 /* header */
 header {
   background-color: black; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
@@ -109,6 +110,7 @@ header {
 /* main部分 */
 .main {
   background-color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .slide {

@@ -17,33 +17,6 @@
 
 
 @media screen and (max-width: 599px) {
-  .header-right a, .header-right p {
-    font-size: 60%;
-  }
-
-  .header-right p {
-    margin-right: 20px;
-  }
-
-  .fab {
-    font-size: 60%;
-  }
-
-  .logo {
-    width: 100px;
-    height: 55px;
-  }
-
-  .sns a {
-    margin: 10px 10px;
-  }
-
-  .nav li {
-    margin: 10px 20px 10px 20px;
-    font-weight: bold;
-    font-size: 100%;
-  }
-
   .menu {
     width: 320px;
     margin: 20px auto;

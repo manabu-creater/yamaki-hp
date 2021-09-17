@@ -1,0 +1,250 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nua hair</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="reserve.css">
+    <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-left">
+          <a href="index.html"><img src="images/logo-image1.png" class="logo"></a>
+        </div>
+        <div class="header-right">
+          <div class="sns">
+            <a href="https://line.me/ti/p/xdRO9kkG8H"><i class="fab fa-line fa-4x"></i></a>
+            <a href="https://instagram.com/yamaki161?utm_medium=copy_link"><span class="insta"><i class="fab fa-instagram fa-4x"></i></span></a>
+          </div>
+          <p>SNSから予約</p>
+        </div>
+      </div>
+      <div class="navigation">
+        <ul class="nav">
+          <li><a href="#concept" class="top">concept</a></li>
+          <li><a href="staff.html">staff</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="style.html">style</a></li>
+          <li><a href="reserve.html">reserve</a></li>
+        </ul>
+      </div>
+    </header>
+  
+    <section class="py-5">
+      <h3 class="text-center font-weight-bold mb-5" id="net-reservation">メールでのご予約</h3>
+
+      <ul>
+        <li>＊は必須項⽬です</li>
+        <li>ご予約は仮予約となります。こちらからの折り返しのご連絡をもってご予約確定となります</li>
+        <li>混雑している場合はご希望の予約時間が取れない場合があります</li>
+      </ul>
+      
+      <p class="careful">※右上snsのダイレクトメールから直接のご連絡も承っております。</p>
+
+      <div class="mail">
+        <p class="name">＊お名前：</p>
+        <p class="email">＊メールアドレス：</p>
+        <p class="tel">＊お電話番号：</p>
+        <p class="name">＊ご希望日時第一候補：</p>
+        <p class="name">ご希望日時第二候補：</p>
+        <p class="name">ご希望日時第三候補：</p>
+        <p class="messeage">メッセージ：</p>
+      </div>
+
+      <!-- <form method="POST" class="border p-3 p-md-5 mb-5" action="mailto:manabuokubo0707@gmail.com">
+
+        <div class="mb-3 row align-items-center">
+          <label for="Subject" class="col-sm-2 col-form-label">ご用件＊</label>
+          <div class="col-sm-10">
+            <div class="form-check form-check-inline">
+              <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio1" value="option1" required>
+              <label class="form-check-label" for="inlineRadio1">ご予約</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
+              <label class="form-check-label" for="inlineRadio2">お問い合わせ</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input type="radio" class="form-check-input" name="inlineRadioOptions" id="inlineRadio3" value="option3" required>
+              <label class="form-check-label" for="inlineRadio3">その他</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="Name" class="col-sm-2 col-form-label">お名前＊</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="Named" placeholder="お名前を入力してください" required>
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="Email" class="col-sm-2 col-form-label">Eメール＊</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="Email" value="" required>
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="Tel" class="col-sm-2 col-form-label">電話番号＊</label>
+          <div class="col-sm-10">
+            <input type="tel" class="form-control" id="Tel" placeholder="ハイフンなしで入力してください" required>
+          </div>
+        </div>
+
+        <div class="mb-3 row">
+          <label for="inputEmail" class="col-lg-2 col-form-label">ご予約希望日時</label>
+          <div class="col-sm-10">
+            <div class="row">
+              <div class="col-md-4 mb-3">
+                <select class="custom-select form-control-sm d-block w-100" id="date" required>
+                  <option value="希望日なし">希望月なし</option>
+                  <option value="1月">1月</option>
+                  <option value="2月">2月</option>
+                  <option value="3月">3月</option>
+                  <option value="4月">4月</option>
+                  <option value="5月">5月</option>
+                  <option value="6月">6月</option>
+                  <option value="7月">7月</option>
+                  <option value="8月">8月</option>
+                  <option value="9月">9月</option>
+                  <option value="10月">10月</option>
+                  <option value="11月">11月</option>
+                  <option value="12月">12月</option>
+                </select>
+                <div class="invalid-feedback">
+                  月を選択してください
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <select class="custom-select form-control-sm d-block w-100" id="date" required>
+                  <option value="希望日なし">希望日なし</option>
+                  <option value="1日">1日</option>
+                  <option value="2日">2日</option>
+                  <option value="3日">3日</option>
+                  <option value="4日">4日</option>
+                  <option value="5日">5日</option>
+                  <option value="6日">6日</option>
+                  <option value="7日">7日</option>
+                  <option value="8日">8日</option>
+                  <option value="9日">9日</option>
+                  <option value="10日">10日</option>
+                  <option value="11日">11日</option>
+                  <option value="12日">12日</option>
+                  <option value="13日">13日</option>
+                  <option value="14日">14日</option>
+                  <option value="15日">15日</option>
+                  <option value="16日">16日</option>
+                  <option value="17日">17日</option>
+                  <option value="18日">18日</option>
+                  <option value="19日">19日</option>
+                  <option value="20日">20日</option>
+                  <option value="21日">21日</option>
+                  <option value="22日">22日</option>
+                  <option value="23日">23日</option>
+                  <option value="24日">24日</option>
+                  <option value="25日">25日</option>
+                  <option value="26日">26日</option>
+                  <option value="27日">27日</option>
+                  <option value="28日">28日</option>
+                  <option value="29日">29日</option>
+                  <option value="30日">30日</option>
+                  <option value="31日">31日</option>
+                </select>
+                <div class="invalid-feedback">
+                  日にちを選択してください
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <select class="custom-select form-control-sm d-block w-100" id="time" required>
+                  <option value="希望時間なし">希望時間なし</option>
+                  <option value="9時">9時</option>
+                  <option value="9時半">9時半</option>
+                  <option value="10時">10時</option>
+                  <option value="10時半">10時半</option>
+                  <option value="11時">11時</option>
+                  <option value="11時半">11時半</option>
+                  <option value="12時">12時</option>
+                  <option value="12時半">12時半</option>
+                  <option value="15時">15時</option>
+                  <option value="15時半">15時半</option>
+                  <option value="16時">16時</option>
+                  <option value="16時半">16時半</option>
+                  <option value="17時">17時</option>
+                  <option value="17時半">17時半</option>
+                </select>
+                <div class="invalid-feedback">
+                  時間を選択してください
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-5 row align-items-center">
+          <label for="Subject" class="col-sm-2 col-form-label">メッセージ</label>
+          <div class="col-sm-10">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="ここにコメントを残す" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">当店にメッセージがある方はこちらにお書きください</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              利用規約に同意する
+            </label>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <button type=" submit" class="btn btn-primary"　value="">フォームを送信</button>
+        </div>
+      </form> -->
+
+      <div class="mb-5 text-center">
+        <p class="text-left">上記の内容をコピー＆ペーストして各項目をご記入のうえ、<br>下記のメールアドレスからご連絡ください。</p>
+      </div>
+
+      <div class="text-center">
+        <a href="mailto:mountain.tree.16@i.softbank.jp" class="border btn btn-light p-4 fw-bolder col-md-8">
+          mountain.tree.16@i.softbank.jp へメールを送信<br>
+          <span class="fw-normal">※ メーラーが起動します</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="shop" id="shop">
+      <img src="images/title2.png" class="title2">
+      <duv class="shop-info">
+        <div class="map">
+          <h3>ＯＭＯＴＥＳＡＮＤＯ</h3>
+          <img src="images/shop.jpg" class="appearance">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3798909633633!2d139.71538941504787!3d35.667646880197594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9de9ecc8b1%3A0xc1fedbfa6bb92cff!2z44CSMTA3LTAwNjIg5p2x5Lqs6YO95riv5Yy65Y2X6Z2S5bGx77yT5LiB55uu77yS4oiS77yWIOOCu-ODs-ODiOODqeODq-esrOS6lOmdkuWxsQ!5e0!3m2!1sja!2sjp!4v1627907824795!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="info-right">
+          <p>NUA AOYAMA hair salon</p>
+          <p>住所：東京都港区南青山3-2-6 セントラル第五青山 3-B</p>
+          <p>TEL.03-3333-3333</p>
+          <p>営業時間：11:00~22:00(最終受付:20:30)</p>
+          <p>休日：不定休</p>
+          <div class="sns2">
+            <a href="https://line.me/ti/p/xdRO9kkG8HA"><i class="fab fa-line fa-4x"></i></a>
+            <a href="https://instagram.com/yamaki161?utm_medium=copy_link"><span class="insta"><i class="fab fa-instagram fa-4x"></i></span></a>
+            <a href="https://vt.tiktok.com/ZSJKEvQBj/"><i class="fab fa-tiktok fa-4x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- JavaScript -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+    <footer>
+      <p>© All rights reserved by NUA AOYAMA hair salon</p>
+    </footer>
+  </body>
+</html>

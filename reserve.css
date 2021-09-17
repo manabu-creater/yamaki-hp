@@ -1,0 +1,64 @@
+section, .shop {
+  background-color: black;
+  color: white;
+}
+
+
+
+.custom-select {
+  border: 1px solid lightgray;
+  /* box-shadow: 2px 2px 3px 1px #666;
+  -moz-box-shadow: 2px 2px 3px 1px #666;
+　-webkit-box-shadow: 2px 2px 3px 1px #666; */
+}
+
+.py-5 li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.careful {
+  margin-top: 15px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.mail {
+  width: 500px;
+  margin: 20px auto;
+  padding-right: 20%;
+  padding-top: 20px;
+  border: 2px solid white;
+}
+
+
+@media screen and (max-width: 599px) {
+  .mail {
+    width: 330px;
+    font-size: 70%;
+    padding-right: 50%;
+  }
+
+  .py-5 {
+    font-size: 85%;
+  }
+  .text-center {
+    width: 330px;
+    margin: 0 auto;
+  }
+
+  .careful {
+    font-size: 80%;
+    margin-top: initial;
+  }
+
+
+}
+
+/* i pad  */
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  
+
+
+}
